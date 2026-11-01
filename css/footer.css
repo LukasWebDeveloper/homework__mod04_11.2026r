@@ -1,0 +1,15 @@
+.footerSite {
+    background-color: #527d13;
+    min-height: 100px;
+    margin-top: 5px;
+}
+
+.authorSite {
+    padding: 5px;
+    margin: 5px;
+}
+
+.footer__copyright {
+    color: white;
+    text-align: center;
+}

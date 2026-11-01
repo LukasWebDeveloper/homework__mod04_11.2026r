@@ -1,0 +1,36 @@
+.navigationSite {
+    background-color: #76b049;
+}
+
+.navigationSite__unorderedList {
+    padding: 1%;
+}
+
+.unorderedList__linksSite {
+    list-style-type: none;
+} 
+
+.linkSite {
+    text-decoration: none;
+    margin-right: 2%;
+    padding: 0.5%;
+    font-weight: bold;
+    text-shadow: 2px 2px 11px rgba(0, 0, 0, 0.62);
+    color: #2a4108;
+}
+
+.linkSite:visited {
+    color: #fff;
+}
+
+.linkSite:focus {
+    color: #aadb4e;
+}
+
+.linkSite:hover {
+    color: #e4efd4;
+}
+
+.linkSite:active {
+    color: #df2a1a;
+}
