@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 
 <head>
     <meta charset="UTF-8">
@@ -26,22 +26,28 @@
 </head>
 
 <body class="body">
-    <section id="sectionHeader">
+    <section class="section" id="section__header">
         <header class="headerSite">
             <h2 class="headerSite__titleSite">LIŚCIASTE DRZEWKA BONSAI</h2>
             <nav class="navigationSite">
                 <ul class="navigationSite__unorderedList">
                     <li class="unorderedList__linksSite">
-                        <a class="linkSite" href="#section__tableBonsai">Tabela bonsai</a>
-                        <a class="linkSite" href="#section__footer">Stopka</a>
+                        <a class="linkSite" href="#section__header">Strona główna</a>
+                        <a class="linkSite" href="#section__main">Część główna</a>
+                        <a class="linkSite" href="#section__footer">Kontakt</a>
                     </li>
                 </ul>
             </nav>
         </header>
     </section>
-    <main class="mainSite">
-        <section id="section__tableBonsai">
-            <h3 class="head__tableBonsai">Tabela tworzonych przeze mnie roslin</h3>
+    <section class="section" id="section__main">
+        <main class="mainSite">
+            <h3 class="head head__authorDescription">O autorze strony</h3>
+            <p class="main__authorDescription">
+                &emsp;Nazywam się Łukasz Duszak. Jestem pasjonatem roślin i ogrodnictwa. W
+                wolnym czasie zajmuję się uprawą roślin na drzewka Bonsai. Na tej stronie chciałbym podzielić się moją
+                wiedzą i doświadczeniem w uprawie roślin liściastych na drzewka Bonsai.</p>
+            <h3 class=" head head__tableBonsai">Uprawiane przeze mnie rosliny na drzewka Bonsai</h3>
 
             <table class="tableBonsai">
                 <caption class="tableBonsai__title"> Najlepsze bonsai liściaste</caption>
@@ -66,12 +72,12 @@
                     <td class="tableBonsai__cell">kwiecień</td>
                 </tr>
             </table>
-        </section>
-        <button class="main__button--changeBackgroudColor">Zmień na
-            <span class="button__span--color">ciemny</span> kolor strony
-        </button>
-    </main>
-    <section id="section__footer">
+            <button class="main__button--changeBackgroudColor">Zmień na
+                <span class="button__span--color">ciemny</span> kolor strony
+            </button>
+        </main>
+    </section>
+    <section class="section" id="section__footer">
         <footer class="footerSite">
             <h3 class="authorSite">autor: Łukasz duszak</h3>
             <p class="footer__copyright">Strona ma prawa autorskie Copyright ©</p>
