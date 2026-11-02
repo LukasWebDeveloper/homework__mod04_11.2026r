@@ -1,4 +1,6 @@
 {
+    console.log("Witam w moim projekcie. Ten kod jest już w repozytorium GitHub");
+
     let button__backgroundSiteColor = document.querySelector(".main__button--changeBackgroudColor");
     let button__spanColor = document.querySelector(".button__span--color");
     let mainSite = document.querySelector(".mainSite");
