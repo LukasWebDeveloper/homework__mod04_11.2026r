@@ -13,4 +13,5 @@ Moja strona jest o tworzonych roślinach, drzewkach Bonsai.
 - BEM
 - HTML
 - CSS
+    -   flex
 - Javascript
