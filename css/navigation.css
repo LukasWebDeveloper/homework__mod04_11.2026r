@@ -18,11 +18,11 @@
     padding: 0.5%;
     font-weight: bold;
     text-shadow: 2px 2px 11px rgba(0, 0, 0, 0.62);
-    color: #2a4108;
+    color: #efefef;
 }
 
 .linkSite:visited {
-    color: #fff;
+    color: #e0e0e0;
 }
 
 .linkSite:focus {
